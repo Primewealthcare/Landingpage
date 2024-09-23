@@ -170,6 +170,11 @@
 .carousel-control-next {
     width: 15%;
 }
+.text-center button{
+    background-color: #276c63;
+    padding: 18px;
+    border-radius: 8px;
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -180,6 +185,7 @@
     border-radius: 50px;
     opacity: 50%;
 }
+
 
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
@@ -674,3 +680,7 @@ border-bottom: 1px solid #999; */
         margin-bottom: 20px;
     }
 }
+
+
+
+
