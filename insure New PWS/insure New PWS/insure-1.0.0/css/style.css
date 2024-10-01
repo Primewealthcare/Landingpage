@@ -50,7 +50,7 @@
     background: #8bc5bd;
     border-color: #8bc5bd;
     color: #15233C;
-    /* border-color: var(--secondary); */
+    /* border-color: var(--dark); */
 }
 
 .btn.btn-secondary:hover {
@@ -283,6 +283,14 @@
     overflow: hidden;
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
+.service-item:hover {
+    position: relative;
+    overflow: hidden;
+    /* box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+    size: 45px; */
+    box-shadow: none;
+}
+
 
 .service-item .service-icon {
     width: 90px;
@@ -300,8 +308,10 @@
 .service-item a.btn {
     color:  #fff;
     background-color: #276c63;
+    
     /* background: #8bc5bd; */
 }
+
 
 .service-item a.btn:hover {
     color: var(--dark) ;
